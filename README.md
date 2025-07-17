@@ -15,7 +15,12 @@ A Model Context Protocol (MCP) JSON-RPC server that exposes Spotify's Web API as
 npm install
 ```
 
-2. Create a `.env` file with your Spotify credentials:
+2. Copy the environment template and add your Spotify credentials:
+```bash
+cp .env.example .env
+```
+
+Then edit `.env` with your actual credentials:
 ```
 SPOTIFY_CLIENT_ID=your_client_id_here
 SPOTIFY_CLIENT_SECRET=your_client_secret_here
